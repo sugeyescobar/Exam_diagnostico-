@@ -1,0 +1,39 @@
+package matrices;
+
+import java.util.Scanner;
+
+public class Matrices {
+
+    public static void main(String[] args) {
+       Scanner leer=new Scanner (System.in);
+       System.out.print("N:");
+       int n=leer.nextInt();
+       //arriba 
+       for(int k=0;k<n;k++){ 
+          System.out.print("*    ");
+          
+       } 
+       System.out.println("     ");
+        for(int k=0;k<n-1;k++){ 
+          System.out.print("*    ");
+          
+       } 
+       System.out.println("     ");
+       for(int k=0;k<n-2;k++){ 
+          System.out.print("*    ");
+          
+       } 
+       System.out.println("     ");
+       for(int k=0;k<n-3;k++){ 
+          System.out.print("*    ");
+          
+       } 
+       System.out.println("     ");
+       for(int k=0;k<n-4;k++){ 
+          System.out.print("*    ");
+          
+       } 
+       System.out.println("     ");
+    }//cierra el metodo main
+    
+}//cierra la clase
